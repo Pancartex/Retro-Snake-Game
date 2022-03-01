@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 10;
+  padding: 10;
+  background: black;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 200px;
+  border: solid 2px black;
+  background: grey;
+  border-radius: 5px;
+}
+
+.gameboard {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.square {
+  width: 20px;
+  height: 20px;
+}
+
+.snake {
+  background-color: blue;
+}
+
+.apple:before {
+  content: "🍎";
+}
+
+#start {
+  background: orange;
+  border: darkorange;
+  padding: 10px 25px;
+  border-radius: 5px;
+}
